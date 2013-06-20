@@ -1,4 +1,4 @@
 ed-haskell
 ==========
 
-Simplified ed clone in Haskell (written in the context of an intro to FP course)
+GNU ed subset in Haskell (written as deliverable of an intro to FP course)
