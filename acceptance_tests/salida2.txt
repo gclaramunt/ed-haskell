@@ -1,0 +1,25 @@
+9	risus nec lectus. Curabitur rhoncus malesuada dolor, ac viverra neque convallis eu. Proin sagittis
+10	quam in nulla egestas, nec iaculis augue eleifend. Phasellus vitae faucibus odio. Donec cursus
+11	dapibus tellus tempus ultrices. Mauris ut libero non turpis euismod ornare sed in elit. Integer leo
+12	est, elementum sit amet viverra eget, commodo sit amet ante. Donec ut purus volutpat enim cursus
+13	malesuada vel eget sem.
+14	
+15	Aenean faucibus viverra sapien non euismod. Maecenas porttitor velit sit amet scelerisque
+16	$$$$--> texto agregado luego de 15 $$$$ 
+17	$$$$ Global command. Applies command-list to each of the addressed lines matching a regular expression
+18	$$$$ re. The current address is set to the line currently matched before command-list is executed. At the
+19	$$$$ end of the `g' command, the current address is set to the last line affected by command-list.
+436	diam. Curabitur laoreet lacus magna, eget commodo nisi condimentum sit amet. Nam feugiat in tellus
+437	ut semper.
+438	
+439	Quisque vestibulum mollis purus ac condimentum. Sed elementum, ipsum sit amet vulputate auctor,
+440	purus libero rhoncus lectus, non accumsan urna metus nec elit. Integer sagittis varius eros at
+441	tincidunt. Mauris convallis pulvinar elit, eu placerat mauris cursus vitae. Nunc vel lobortis metus,
+442	et pulvinar urna. Vestibulum tincidunt malesuada diam non molestie. Quisque tristique, urna quis
+443	convallis interdum, ligula lectus tristique elit, et tincidunt risus odio ac odio. Mauris vitae.
+444	$$$$--> texto agregado al final
+445	$$$$ All ed commands are single characters, though some require additonal parameters. If a command's
+446	$$$$ parameters extend over several lines, then each line except for th
+1	$$$$--> texto agregado al principio
+2	$$$$ All ed commands are single characters, though some require additonal parameters. If a command's
+3	$$$$ parameters extend over several lines, then each line except for th

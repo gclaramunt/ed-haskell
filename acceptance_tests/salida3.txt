@@ -1,0 +1,32 @@
+28	ante eros, eget mollis dolor blandit sit amet. Nunc libero nisi, mattis at dapibus pulvinar,
+29	porttitor eu nunc. Ut non porttitor augue. Nam adipiscing lectus in enim feugiat sagittis. Fusce
+30	arcu odio, viverra molestie dui eget, lacinia sollicitudin felis. Proin suscipit a lorem a
+31	tristique. Duis bibendum elementum dui a ornare. Integer eget dui felis. Aliquam tellus dui, pretium
+32	vitae varius sit amet, pretium at ante. Vivamus quis dolor at dui scelerisque bibendum. Nulla eu
+33	nisl sem. Proin non adipiscing erat, ut congue eros. Mauris mollis turpis ante, sit amet blandit
+34	metus aliquet laoreet. Sed placerat ultricies erat et dapibus.
+35	$$$$--> texto agregado luego de 35 $$$$ 
+36	$$$$ Global command. Applies command-list to each of the addressed lines matching a regular expression
+37	$$$$ re. The current address is set to the line currently matched before command-list is executed. At the
+38	$$$$ end of the `g' command, the current address is set to the last line affected by command-list.
+435	lacus ac posuere ultricies, metus nisl facilisis lacus, vitae consectetur velit libero faucibus
+436	diam. Curabitur laoreet lacus magna, eget commodo nisi condimentum sit amet. Nam feugiat in tellus
+437	ut semper.
+438	
+439	Quisque vestibulum mollis purus ac condimentum. Sed elementum, ipsum sit amet vulputate auctor,
+440	purus libero rhoncus lectus, non accumsan urna metus nec elit. Integer sagittis varius eros at
+441	tincidunt. Mauris convallis pulvinar elit, eu placerat mauris cursus vitae. Nunc vel lobortis metus,
+442	et pulvinar urna. Vestibulum tincidunt malesuada diam non molestie. Quisque tristique, urna quis
+443	$$$$--> texto agregado al final
+444	$$$$ All ed commands are single characters, though some require additonal parameters. If a command's
+445	$$$$ parameters extend over several lines, then each line except for th
+1	$$$$--> texto agregado al principio
+2	$$$$ All ed commands are single characters, though some require additonal parameters. If a command's
+3	$$$$ parameters extend over several lines, then each line except for th
+4	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra blandit velit, vel mollis
+5	purus viverra et. Phasellus mi nunc, sollicitudin ut velit a, eleifend tempor nibh. Pellentesque
+6	posuere ante et augue fermentum, at porttitor ligula eleifend. Integer auctor vestibulum
+7	hendrerit. Proin eget magna dolor. Nam elementum semper metus. Vestibulum accumsan, justo eu
+8	sagittis adipiscing, metus nulla eleifend lectus, vitae dapibus lacus sapien non tellus. Mauris
+9	molestie dolor massa, quis ullamcorper turpis sagittis ut.
+10	

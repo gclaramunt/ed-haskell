@@ -1,0 +1,20 @@
+35i
+$$$$--> texto agregado luego de 35 $$$$ 
+$$$$ Global command. Applies command-list to each of the addressed lines matching a regular expression
+$$$$ re. The current address is set to the line currently matched before command-list is executed. At the
+$$$$ end of the `g' command, the current address is set to the last line affected by command-list.
+.
+-10,.n
+$i
+$$$$--> texto agregado al final
+$$$$ All ed commands are single characters, though some require additonal parameters. If a command's
+$$$$ parameters extend over several lines, then each line except for th
+.
+-10,.n
+0i
+$$$$--> texto agregado al principio
+$$$$ All ed commands are single characters, though some require additonal parameters. If a command's
+$$$$ parameters extend over several lines, then each line except for th
+.
+1,10n
+Q

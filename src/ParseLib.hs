@@ -15,6 +15,7 @@
 module ParseLib where
 
 import Data.Char
+import Types
 
 infixr 5 >*>
 --   
@@ -89,7 +90,7 @@ build p f inp = [ (f x,rem) | (x,rem) <- p inp ]
 --  
 -- 	
 list :: Parse a b -> Parse a [b]
-list p = (succeed []) 
+list p = succeed []
          `alt`
          ((p >*> list p) `build` convert)
          where
@@ -102,20 +103,20 @@ list p = (succeed [])
 neList   :: Parse a b -> Parse a [b]
 neList p = (p  `build` (:[]))
            `alt`
-           ((p >*> list p) `build` (uncurry (:)))
+           ((p >*> list p) `build` uncurry (:))
 
 -- Zero or one object.
 
-optional :: Parse a b -> Parse a [b]
-optional p = (succeed []) 
+optional :: Parse a b -> Parse a (Maybe b)
+optional p = succeed Nothing
              `alt`  
-             (p  `build` (:[]))
+             (p  `build` Just)
 
 -- A given number of objects.
 
 nTimes :: Int -> Parse a b -> Parse a [b]
 nTimes 0 p     = succeed []
-nTimes (n+1) p = (p >*> nTimes n p) `build` (uncurry (:))
+nTimes (n+1) p = (p >*> nTimes n p) `build` uncurry (:)
 --  
 -- Monadic parsing
 
